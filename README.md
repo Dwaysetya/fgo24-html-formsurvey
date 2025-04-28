@@ -1,21 +1,36 @@
-# Form Survey Project
+## Survey form project example using HTML
 
-Proyek ini adalah sebuah **form survey sederhana** yang dibuat menggunakan **HTML** murni.  
-Tujuan dari proyek ini adalah untuk memvisualisasikan form survey menggunakan HTML.
+This repository contains a simple HTML project to create a survey form about smoking habits. The main focus of this project is to document the basic HTML structure to support further development. In addition, this project aims to collect data on the number of smokers, their ages, and analyze the average age range among smokers.
 
-## Teknologi yang Digunakan
+## Preview
 
-- **HTML5**: Untuk membangun struktur papan catur.
-- **Node Modules** ("Dev": "live-server"): Untuk menjalankan **Live Server** (melihat perubahan secara langsung).
-- **Live Server**: Untuk mengembangkan secara lokal dengan hot reload.
+![Preview](formsurvey.png)
 
-> **Catatan**: Tidak ada JavaScript atau CSS eksternal yang digunakan pada tahap ini. Semua dibuat menggunakan HTML5.
+## How to Run this project
 
-## Cara Menjalankan
+1. Clone this project
+```
+git clone https://github.com/Dwaysetya/fgo24-html-formsurvey
+```
+2. Enter the project firectory
+```
+cd directory-name
+```
+3. Install the Depedencies
+```
+npm install
+```
+4. run the project
+```
+npm run dev
+```
+5. Project will running on http://localhost:8080
 
-1. Pastikan kamu sudah menginstall **Node.js**. (npm init -y)
-2. Install Live Server secara global atau gunakan dari VSCode Extension (npm i -D live-server)
-3. Buka terminal di folder project, lalu jalankan:
-   ```bash
-   npm run dev
-   ```
+## Depedencies
+
+This project requires Node.js to run, so make sure Node.js is installed on your device.
+- live-server: used to document an HTTP server locally, easing the development and testing process.
+
+## Basic Information
+
+This project was developed as part of the learning program at Kodacademy Bootcamp Batch 24, which was carried out by Dwi Setyabudi in order to deepen the understanding and technical skills acquired during the training.
